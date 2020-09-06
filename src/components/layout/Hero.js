@@ -61,41 +61,40 @@ const Wrapper = styled.div`
     @include respond(phone) {
       color: $color-grey-dark-3;
     }
-    &--main {
-      display: block;
-      font-size: 6rem;
-      font-weight: 400;
-      letter-spacing: 3.5rem;
+  }
+  .heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
 
-      animation: moveInLeft 1s ease-out;
+    animation: moveInLeft 1s ease-out;
 
-      @include respond(phone) {
-        //1rem = 8px so /16 = 50% - phone will also be this size
-        font-size: 3rem;
-        letter-spacing: 0;
-        line-height: 1.3;
-      }
+    @include respond(phone) {
+      /* //1rem = 8px so /16 = 50% - phone will also be this size */
+      font-size: 3rem;
+      letter-spacing: 0;
+      line-height: 1.3;
     }
+  }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    /* // letter-spacing: 1.75px; */
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    text-transform: lowercase;
 
-    &--sub {
-      display: block;
-      font-size: 2rem;
-      font-weight: 700;
-      // letter-spacing: 1.75px;
-      animation-name: moveInRight;
-      animation-duration: 1s;
-      animation-timing-function: ease-out;
-      text-transform: lowercase;
-
-      @include respond(phone) {
-        //1rem = 8px so /16 = 50% - phone will also be this size
-        font-size: 1.5rem;
-        line-height: 1.2;
-        font-weight: 300;
-      }
-      &-emphasis {
-        color: red;
-      }
+    @include respond(phone) {
+      /* //1rem = 8px so /16 = 50% - phone will also be this size */
+      font-size: 1.5rem;
+      line-height: 1.2;
+      font-weight: 300;
+    }
+    &-emphasis {
+      color: red;
     }
   }
 `;
