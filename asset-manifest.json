@@ -1,22 +1,27 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.fa944fe1.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.11369806.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.11369806.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.b107d819.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b107d819.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.548c2c48.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.548c2c48.js.map",
     "static/js/2.6a3d5fa5.chunk.js": "/react-portfolio/static/js/2.6a3d5fa5.chunk.js",
     "static/js/2.6a3d5fa5.chunk.js.map": "/react-portfolio/static/js/2.6a3d5fa5.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.1a7a9965f17dc8273bf0a0eb09473bf9.js": "/react-portfolio/precache-manifest.1a7a9965f17dc8273bf0a0eb09473bf9.js",
+    "precache-manifest.281d13cd6c4b2549114e24f16f29dc7a.js": "/react-portfolio/precache-manifest.281d13cd6c4b2549114e24f16f29dc7a.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/main.fa944fe1.chunk.css.map": "/react-portfolio/static/css/main.fa944fe1.chunk.css.map",
-    "static/js/2.6a3d5fa5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6a3d5fa5.chunk.js.LICENSE.txt"
+    "static/js/2.6a3d5fa5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6a3d5fa5.chunk.js.LICENSE.txt",
+    "static/media/CSS3_logo_and_wordmark.svg": "/react-portfolio/static/media/CSS3_logo_and_wordmark.a31a4f91.svg",
+    "static/media/Front.jpg": "/react-portfolio/static/media/Front.15ceb997.jpg",
+    "static/media/HTML5 logo2.svg": "/react-portfolio/static/media/HTML5 logo2.d8daea92.svg",
+    "static/media/JS logo 2 White.svg": "/react-portfolio/static/media/JS logo 2 White.8607f1b5.svg",
+    "static/media/React Logo2.svg": "/react-portfolio/static/media/React Logo2.3a33612e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.548c2c48.js",
     "static/js/2.6a3d5fa5.chunk.js",
     "static/css/main.fa944fe1.chunk.css",
-    "static/js/main.11369806.chunk.js"
+    "static/js/main.b107d819.chunk.js"
   ]
 }
