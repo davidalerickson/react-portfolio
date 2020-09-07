@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import "../../sass/_animations.scss";
+import Aninmation from "../widgets/Animation";
 
 const Wrapper = styled.div`
   .header {
@@ -22,7 +23,7 @@ const Wrapper = styled.div`
     (-webkit-min-device-pixel-ration: 2) and (min-width: 37.5em),
     (min-width: 112.5em) {
     .header {
-      background-image: url(../../img/Front@1x.jpg);
+      background-image: url(${require("../../img/Front.jpg")});
     }
   }
   .header__logos-box {
@@ -81,7 +82,6 @@ const Wrapper = styled.div`
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    /* // letter-spacing: 1.75px; */
     animation-name: moveInRight;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -97,6 +97,9 @@ const Wrapper = styled.div`
       color: red;
     }
   }
+  .textTest {
+    font-size: 6rem;
+  }
 `;
 
 export class Hero extends Component {
@@ -105,6 +108,7 @@ export class Hero extends Component {
       <Wrapper>
         <header className="header">
           <div className="header__text-box">
+            {/* ----------------
             <h1 className="heading-primary">
               <span className="heading-primary--main">Hello</span>
               <span className="heading-primary--sub">
@@ -120,6 +124,8 @@ export class Hero extends Component {
                 </span>
               </span>
             </h1>
+            -------------- */}
+            <Aninmation />
             <div className="header__logos-box">
               <div className="header__logo-box">
                 <img
