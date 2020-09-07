@@ -3,6 +3,7 @@ import { colors, fonts, breakpoints } from "../styles/mainStyles";
 import { createGlobalStyle } from "styled-components";
 
 import Hero from "../components/layout/Hero";
+import WebDev from "../components/layout/WebDev";
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -35,6 +36,7 @@ class App extends React.Component {
       <>
         <GlobalStyles />
         <Hero />
+        <WebDev />
       </>
     );
   }
