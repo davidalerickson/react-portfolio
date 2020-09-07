@@ -4,10 +4,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   margin: 0 auto;
-  width: 80%;
-  background-color: white;
-  box-shadow: var(--shadow-light);
-  border-radius: 5px;
+  width: 100%;
   .lottie-animation {
     width: 100%;
     /* border: solid 1px black;

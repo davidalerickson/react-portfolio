@@ -52,7 +52,7 @@ const Wrapper = styled.div`
       top: 70%;
       padding: 0 1rem;
       border-radius: 3rem;
-      background-color: rgba(247, 247, 247, 0.7);
+      background-color: rgba(0, 0, 0, 0.7);
     }
   }
   .heading-primary {
@@ -126,36 +126,6 @@ export class Hero extends Component {
             </h1>
             -------------- */}
             <Aninmation />
-            <div className="header__logos-box">
-              <div className="header__logo-box">
-                <img
-                  src={require("../../img/logos/HTML5 logo2.svg")}
-                  alt="Logo"
-                  className="header__logo-html"
-                />
-              </div>
-              <div className="header__logo-box">
-                <img
-                  src={require("../../img/logos/CSS3_logo_and_wordmark.svg")}
-                  alt="Logo"
-                  className="header__logo-html"
-                />
-              </div>
-              <div className="header__logo-box">
-                <img
-                  src={require("../../img/logos/JS logo 2 White.svg")}
-                  alt="Logo"
-                  className="header__logo-html"
-                />
-              </div>
-              <div className="header__logo-box">
-                <img
-                  src={require("../../img/logos/React Logo2.svg")}
-                  alt="Logo"
-                  className="header__logo-html"
-                />
-              </div>
-            </div>
           </div>
         </header>
       </Wrapper>
