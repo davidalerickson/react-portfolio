@@ -5,14 +5,14 @@ import Aninmation from "../widgets/Animation";
 
 const Wrapper = styled.div`
   .header {
-    height: 95vh;
+    height: 100vh;
     background-image: url(${require("../../img/Front.jpg")});
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    box-shadow: 0 2rem 4rem black;
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); */
+    box-shadow: 0 1rem 2rem black;
   }
   @media only screen and (max-width: 37.5em) {
     .header {

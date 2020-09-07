@@ -4,6 +4,8 @@ import { createGlobalStyle } from "styled-components";
 
 import Hero from "../components/layout/Hero";
 import WebDev from "../components/layout/WebDev";
+import CenterLineConnector from "../components/widgets/CenterLineConnector";
+import EricksonGaleazzi from "../components/layout/EricksonGaleazzi";
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -37,6 +39,9 @@ class App extends React.Component {
         <GlobalStyles />
         <Hero />
         <WebDev />
+        <CenterLineConnector />
+        <EricksonGaleazzi />
+        <div style={{ height: "1500px" }} />
       </>
     );
   }
